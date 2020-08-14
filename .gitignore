@@ -24,6 +24,7 @@ x86/
 [Aa][Rr][Mm]64/
 bld/
 [Bb]in/
+[Bb]in-int/
 [Oo]bj/
 [Ll]og/
 
@@ -338,3 +339,8 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+
+# Since we use the prebuild to generate projects, we don't need project files and solution files any more
+*.sln
+*.vcxproj
+*.vcxproj.*
