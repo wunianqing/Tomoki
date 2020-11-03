@@ -72,7 +72,7 @@ project "Sandbox"
 
 	includedirs
 	{
-		"%{prj.name}/vendor/spdlog/include",
+		"Tomoki/vendor/spdlog/include",
 		"Tomoki/src"
 	}
 

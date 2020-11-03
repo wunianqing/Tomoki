@@ -1,0 +1,3 @@
+[submodule "Tomoki/vendor/spdlog"]
+	path = Tomoki/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git
